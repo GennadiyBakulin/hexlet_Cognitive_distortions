@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap');
+@import "./block/header/header.css";
+@import "./block/footer/footer.css";
+
+:root {
+    --color-white: #FFFFFF;
+    --color-light: #F5F4F0;
+    --color-dark_50: #908D8B;
+    --color-dark: #2A2626;
+    --color-brown: #B09A81;
+    --color-primary: #FE8A02;
+    --color-primary_dark: #42413C;
+    --color-white_50: #D7CCC0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90rem;
+    margin: 0 auto;
+}

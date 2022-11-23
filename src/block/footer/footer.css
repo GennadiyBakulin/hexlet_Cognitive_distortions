@@ -1,0 +1,116 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.75rem;
+    height: 36.3rem;
+    padding-top: 6.25rem;
+    background: var(--color-white);
+}
+
+.footer__subscription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 69.37rem;
+    height: 11.875rem;
+    background: var(--color-primary_dark);
+}
+
+.footer__subscription-leftfield {
+    font-family: 'Neucha', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 120%;
+    color: var(--color-white);
+    padding-left: 3.44rem;
+    flex-basis: 50%;
+}
+
+.footer__subscription-rightfield {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.footer__subscription-input {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 160%;
+    color: var(--color-white);
+}
+
+.footer__subscription-input-field {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 26.44rem;
+    background: var(--color-white);
+}
+
+.footer__subscription-input-text {
+    outline: none;
+    border: none;
+    width: 26.44rem;
+    height: 3.12rem;
+    padding: 0 1rem;
+    background: var(--color-white);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.82rem;
+    line-height: 160%;
+    color: #757575;
+}
+
+.footer__subscription-input-text::placeholder {
+    opacity: 0.2;
+}
+
+.footer__subscription-send {
+    position: absolute;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.375rem;
+    height: 3.12rem;
+    top: 0;
+    right: -3.875rem;
+    background: #FE8A02;
+}
+
+.footer__subscription-send svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke: var(--color-white);
+    fill: none;
+}
+
+.footer__subscription-approved, .footer__subscription-approved a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 160%;
+    color: var(--color-white);
+}
+
+.footer__info {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+}
+
+.footer__info a {
+    text-decoration-line: underline;
+    color: #1085C5;
+}

@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Когнитивные искажения</title>
-
-  <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Когнитивные искажения</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="main-wrapper">
+    <header class="header">
+        <img class="header__fon" src="./img/background.png" alt="">
+        <img class="header__image" src="./img/main.png" alt="">
+        <h1 class="header__title">
+            <span class="header__title1">Когнитивные<br>искажения</span>
+            <span class="header__title2">в программировании</span>
+        </h1>
+        <div class="header__content">
+            <div class="header__leftcontent">Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с
+                нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны,
+                некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.
+            </div>
+            <div class="header__rightcontent">
+                <div>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере
+                    продуктивности, багам и бесконечному разочарованию.
+                    <br><br>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем
+                    сломать и цикл, а остатки нейтрализовать.
+                </div>
+                <button class="header__button">подробнее</button>
+            </div>
+        </div>
+    </header>
+    <section></section>
+    <footer class="footer">
+        <div class="footer__subscription">
+            <div class="footer__subscription-leftfield">Хотите узнать больше?<br>Подпишитесь на обновления</div>
+            <div class="footer__subscription-rightfield">
+                <label class="footer__subscription-input">Электронная почта
+                    <span class="footer__subscription-input-field">
+                        <input class="footer__subscription-input-text" type="text"
+                               placeholder="Ваша электронная почта"/>
+                        <button class="footer__subscription-send">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 2L11 13" stroke="white" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="white" stroke-width="2"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </span>
+                </label>
+                <div class="footer__subscription-approved">Подписываясь, вы принимаете <a href="#">правила сервиса</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__info">
+            <p>&copy; 2020 Константин Константинопольский</p>
+            <p>По материалам статьи <a href="#">Yash Ranadive Cognitive Biases in Programming</a></p>
+            <a href="#">Курсы программирования Hexlet</a>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
